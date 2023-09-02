@@ -68,15 +68,6 @@ public class Main {
     //    Задание 4.
 //    Разработайте программу, которая выбросит Exception, когда пользователь вводит пустую строку.
 //    Пользователю должно показаться сообщение, что пустые строки вводить нельзя.
-//    public static void task4() {
-//        System.out.println("Введите строку: ");
-//        String s = scanner.nextLine();
-//        if (s.isEmpty()) {
-//            throw new NullPointerException("Пустые строки вводить нельзя!");
-//        } else {
-//            System.out.println(s);
-//        }
-//    }
 
     public static void task4() {
         try {
